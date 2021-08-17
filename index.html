@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+  </head>
+  <body>
+    <header>
+      <div class="search-header">
+        <input placeholder="Search movie" class="search" oninput="search()" />
+        <input placeholder="Filter by year" class="search" id="year-filter" />
+        <button onclick="filterYear()">Filter</button>
+        <button onclick="sortYear()">Sort by year</button>
+      </div>
+    </header>
+    <div id="movies"></div>
+  </body>
+</html>

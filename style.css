@@ -1,0 +1,33 @@
+.search {
+  height: 2rem;
+}
+
+.search-header {
+  display: flex;
+  justify-content: center;
+}
+
+html {
+  background-color: lightgray;
+}
+
+#movies {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2%;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+  width: 16.66%;
+  padding: 1%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  .movie {
+    width: 100%;
+  }
+}
